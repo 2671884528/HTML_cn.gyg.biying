@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高仿必应</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      #bgDiv{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: #666;
+        background-size: cover;
+      }
+
+      .style{
+        width: 100%;
+        height: 790px;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        background-image: url("https://cn.bing.com/az/hprichbg/rb/ChrisFabregas_ZH-CN11030716797_1920x1080.jpg");
+      }
+
+      .list{
+        width: 1400px;
+        height: 43px;
+        margin: 0 0 0 70px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        position: absolute;
+        list-style: none;
+     }
+      .list li{
+        margin-bottom: 0px;
+      }
+      .list li a{
+        text-decoration: none;
+        text-align: center;
+        line-height: 55px;
+        font-size: 12.4px;
+        color: #ffffff;
+      }
+      .list li a img{
+       padding-top: 10px;
+      }
+      .a1{
+        float: left;
+        width: 60px;
+        height: 16.4px;
+      }
+      .a2{
+        float: left;
+        width: 3px;
+        height: 16.4px;
+      }
+      .a3{
+        float: left;
+        width: 114px;
+        height: 16.4px;
+      }
+      .a4{
+        float: right;
+         padding-top: 5px;
+        padding-right: 20px;
+      }
+      .input{
+        width: 770px;
+        height: 50px;
+        position: absolute;
+        padding: 0;
+
+        left: 88px;
+        top: 150px;
+      }
+      .con{
+        width: 170px;
+        height: 37px;
+      }
+      .con li{
+        position: absolute;
+        list-style: none;
+        left: 230px;
+        top: 129px;
+      }
+
+
+      .input li{
+        list-style: none;
+        float: left;
+
+      }
+      .b1{
+        width: 142px;
+        height: 50px;
+        float: left;
+      }
+      .b2{
+        width: 570px;
+        height: 50px;
+        float: right;
+        background-color: #ffffff;
+      }
+      .b2 input{
+        width: 570px;
+        height: 50px;
+        padding: 0;
+        border: 0;
+        font-size: 20px;
+      }
+      .input li a img{
+        padding: 10px 10px 8px 10px;
+        background-color: #ffffff;
+        overflow: hidden;
+      }
+      .button{
+        width: 100%;
+        height: 43px;
+        background-color: #666666;
+        padding: 0px 20px 0px 49px;
+        margin: 0px;
+        position: absolute;
+        list-style: none;
+        bottom: 0px;
+        left: 0px;
+      }
+      .button li{
+        float: left;
+        font-size: small;
+        margin-right: 16px;
+        color: #9a9a9a ;
+        text-align: center;
+        line-height: 43px;
+      }
+      .button li:hover{
+        color: #ffffff;
+      }
+      .mind{
+        width: 100%;
+        height: 44px;
+        position: absolute;
+        list-style: none;
+        right: 0px;
+        bottom: 80px;
+        margin: 0px;
+        padding-right: 30px;
+      }
+      .mind li{
+        float: right;
+        margin-right: 20px;
+      }
+    </style>
+</head>
+<body>
+<div id="bgDiv" class="style">
+  <ul class="list">
+    <li><a href="https://cn.bing.com/images/trending?form=Z9LH" class="a1">图片</a></li>
+    <li><a href="https://cn.bing.com/videos/trending" class="a1">视频</a></li>
+    <li><a href="https://cn.bing.com/academic/?FORM=Z9LH2" class="a1">学术</a></li>
+    <li><a href="https://cn.bing.com/dict?FORM=Z9LH3" class="a1">词典</a></li>
+    <li><a href="https://cn.bing.com/maps?FORM=Z9LH4" class="a1">地图</a></li>
+    <li><a href="#" class="a2">|</a></li>
+    <li><a target="_blank" href="https://www.office.com/?WT.mc_id=O16_BingHP" class="a3">Office Online</a></li>
+    <li><a target="_blank" href="https://outlook.live.com/owa/?WT.mc_id=O16_BingHP?mkt=zh-CN" class="a3">Outlook.com</a></li>
+    <li><a href="#" class="a4"><img src="image/菜单(1).png" alt="图片"></a></li>
+    <li><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1534839766&rver=6.7.6631.0&wp=MBI&wreply=https%3a%2f%2fcn.bing.com%2fsecure%2fPassport.aspx%3frequrl%3dhttps%253a%252f%252fcn.bing.com%252f%253fwlexpsignin%253d1%26sig%3d0D61C6A1B82862A42908CAF3B9066372&lc=2052&id=264960&CSRFToken=99a2589c-ce39-463b-af8b-1813ceaa9a4c&aadredir=1" class="a4"><img src="image/未登录头象.png" alt="登陆图片"></a></li>
+    <li><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1534839766&rver=6.7.6631.0&wp=MBI&wreply=https%3a%2f%2fcn.bing.com%2fsecure%2fPassport.aspx%3frequrl%3dhttps%253a%252f%252fcn.bing.com%252f%253fwlexpsignin%253d1%26sig%3d0D61C6A1B82862A42908CAF3B9066372&lc=2052&id=264960&CSRFToken=99a2589c-ce39-463b-af8b-1813ceaa9a4c&aadredir=1" class="a4">登陆</a></li>
+  </ul>
+  <div>
+    <ul class="input">
+      <li class="b1"><img src="image/ggg.png"></li>
+      <li class="b2"><input></li>
+      <li><a href="https://user.qzone.qq.com/1925078307?source=friendlist"><img src="image/搜索.png"></a></li>
+    </ul>
+  </div>
+  <div class="con"><li><a href="#"><img src="image/dd.png"></a></li></div>
+    <ul class="button">
+      <li><span>京ICP备10036305号</span></li>
+      <li><span>京公网安备11010802022657号</span></li>
+      <li><a>隐私声明和 Cookie</a></li>
+      <li><a>法律声明</a></li>
+      <li><a>广告</a></li>
+      <li><a>报告</a></li>
+      <li><a>帮助</a></li>
+      <li><a>反馈</a></li>
+      <li style="width: 750px;text-align: right"><span>© 2018 Microsoft</span></li>
+    </ul>
+  <ul class="mind">
+    <li><a href="#"><img src="image/i.png" alt="图1"></a></li>
+    <li><a href="#"><img src="image/右.png" alt="图2"></a></li>
+    <li><a href="#"><img src="image/左.png" alt="图3"></a></li>
+     <li><a href="#"><img src="image/二维码(1).png" alt="图4"></a></li>
+    <li><a href="#"><img src="image/分%20享.png" alt="图5"></a></li>
+  </ul>
+</div>
+
+</body>
+</html>
